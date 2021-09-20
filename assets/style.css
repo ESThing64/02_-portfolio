@@ -1,0 +1,84 @@
+.nav-bar{
+    display: flex;
+    justify-content: center;
+  
+    padding: 2.5rem; 
+     /* position: fixed; */
+    /* bottom: 0; */
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-item{
+    padding: 2rem;
+}
+
+.me{
+    
+    text-align: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 30vh
+}
+
+.me-img{
+    display: block;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 22vh;
+    margin-top: 10vh;
+}
+.sm-bar{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sm-bar-li{
+padding: 1rem;
+margin-bottom: 10vh;
+}
+ 
+#h2-projects{
+    text-align: right;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+#h2-resume{
+    text-align: right;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+.star-project{
+    position: relative;
+    left: 50rem;
+       
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+
+
+.project-card{
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* justify-content: center; */
+    border: black dotted;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem 0;
+    
+}
+
