@@ -55,11 +55,6 @@ margin-bottom: 10vh;
     margin-bottom: 15vh;
 }
 
-.star-project{
-    position: relative;
-    left: 50rem;
-       
-}
 
 .flex-row{
     display: flex;
@@ -69,16 +64,41 @@ margin-bottom: 10vh;
     
 }
 
+.star-project{
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+    border: black dotted;
+    /* margin: 0 25rem; */
+}
+
+
+
 
 .project-card{
+    display: flex;
+    justify-content: center;
     flex: 0 0 50%;
     max-width: 50%;
     /* justify-content: center; */
     border: black dotted;
-    padding-left: 3rem;
+    /* padding-left: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin: 1rem 0;
+    margin: 1rem 0; */
     
 }
 
+@media screen and (max-width: 4000px) {
+    section{
+        
+        margin-bottom: 100px;
+
+    }
+
+    .me-img{
+        margin-top: 18vh;
+    }
+    
+}
