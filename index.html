@@ -11,20 +11,22 @@
 </head>
 <body>
 
-    <header>
+    <header id="me">
         <nav>
             <ul class="nav-bar">
-                <li class="nav-item"> <a href="#me">me.</a> </li>
+                <li class="nav-item"> <a href="#top">me.</a> </li>
                 <li class="nav-item"> <a href="#projects">projects.</a> </li>
-                <li class="nav-item"> <a href="#resume">resume.</a> </li>
                 <li class="nav-item"> <a href="#contact">contact.</a> </li>
+                <li class="nav-item"> <a href="#resume">resume.</a> </li>
+                
+               
             </ul>
         </nav>
     </header>
     <main>
         <section>
 
-        <article id="me" class="me">
+        <article  class="me">
            
             <p> I'm johhn Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores est nobis culpa assumenda nisi
                 explicabo, beatae perferendis unde quam, illo aliquid, laudantium officiis doloremque. Ut consequatur
@@ -32,7 +34,7 @@
 
         </article>
 
-        <img class="me-img" src="./assets/img/headshot_place.png" width="50" height="50" alt="">
+        <img class="me-img" src="./assets/img/headshot_place.png" width="200" height="200" alt="">
 
         <!-- here i will add icons to SM listed below -->
         
@@ -43,9 +45,7 @@
             
 
         </ul>
-        <!-- <diliv ">Linkedin - Github - Instagram</div> -->
-
-        <!-- this is the end of the me. page -->
+       
     </section>
 
     <section>
@@ -97,15 +97,33 @@
 
 
 
-        <article>
+    
+<h2 id="contact" class="h2-contact">Contact</h2>
 
-            <h2>Resume</h2>
+        <article class="artical-flex">
+
+            
 
 
-
-
-
-
+            <div class="form-container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Type your email" >
+                    
+                  </select>
+              
+                  
+                  <textarea id="subject" name="subject" placeholder="Write me something... Anything..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
 
 
 
@@ -113,20 +131,12 @@
         </article>
 
 
-        <article>
-
-            <h2>Contact</h2>
 
 
 
 
 
-
-
-
-
-
-        </article>
+        <footer> hiii im a foot eeeerrr</footer>
 
 
 
