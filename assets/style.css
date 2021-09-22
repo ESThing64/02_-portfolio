@@ -292,17 +292,33 @@ input {
     }
 
     .me-img{
-        margin-bottom: 24vh;
-        margin-top: 15vh;
+        margin-bottom: 4vh;
+        margin-top: 10vh;
     }
 
     .me{
         margin-left: 9rem;
         margin-right: 9rem;
+    }
 
+  
     
-        
+    .star-project{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        border: black dotted;
+    }
 
+    .project-card{
+        display: flex;
+        justify-content: center;
+        flex: 0 0 100%;
+        max-width: 100%;
+     
+        border: black dotted;
+        
     }
     
      
