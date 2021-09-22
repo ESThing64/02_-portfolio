@@ -7,10 +7,13 @@
 
 p{
     color: #FCA311;
+    margin: 0 33vw;
 }
 
 h2{
-    color: white;
+    color: #fff;
+    margin-right: 15vw;
+    
 }
 
 /* nav{
@@ -53,14 +56,14 @@ a{
     text-align: center;
     margin-left: 16rem;
     margin-right: 16rem;
-    margin-top: 30vh
+    margin-top: 25vh
 }
 
 .me-img{
     display: block;
     margin-left:  auto;
     margin-right:  auto;
-    margin-bottom: 22vh;
+    margin-bottom: 17vh;
     margin-top: 10vh;
 }
 .sm-bar{
@@ -84,20 +87,26 @@ margin-bottom: 3vh;
 #h2-projects{
     text-align: right;
     margin-top: 16vh;
-    margin-bottom: 15vh;
+    margin-bottom: 1vh;
 }
 
 .h2-contact{
     text-align: right;
-    margin-top: 5vh;
-    margin-bottom: 15vh;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
 }
 
+#project-link{
+    position: absolute;
+    top: 97vh;
+}
 
 .flex-row{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 0 15vw;
+    
     
     
 }
@@ -125,27 +134,57 @@ margin-bottom: 3vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 1rem 0; */
-    
+    /* padding: 0 2vw; */
 }
 
 
 
-/* form  */
+/* form-- inspired from w3schools.com */
 
+form{
+    color: #FCA311;
+}
 
-input[type=text], select, textarea, input[type=email] {
-    width: 100%;
+input {
+    width: 32%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 10px solid #E5E5E5;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 10px solid #E5E5E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+
+
+
+  /* input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 10px solid #E5E5E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  } */
+
+
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #FCA311;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -153,9 +192,9 @@ input[type=text], select, textarea, input[type=email] {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  /* input[type=submit]:hover {
     background-color: #45a049;
-  }
+  } */
   
   .container {
     
@@ -190,7 +229,7 @@ input[type=text], select, textarea, input[type=email] {
 
 
 
-@media screen and (max-width: 4000px) {
+@media screen and (max-width: 3440px) {
     section{
         
         margin-bottom: 100px;
@@ -202,5 +241,67 @@ input[type=text], select, textarea, input[type=email] {
     }
     
 }
+
+@media screen and (max-width: 1920px) {
+   p{
+
+    margin: 0 22vw;
+
+   }
+    
+}
+
+
+@media screen and (max-width: 1336px) {
+    p{
+ 
+     margin: 0 12vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 15vh;
+        margin-top: 8vh;
+    }
+    
+     
+ }
+ 
+
+ @media screen and (max-width: 1024px) {
+    p{
+ 
+     margin: 0 5vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 15vh;
+        margin-top: 8vh;
+    }
+    
+     
+ }
+
+ @media screen and (max-width: 750px) {
+    p{
+        font-size: 20px;
+ 
+     margin: 0 0vw;
+ 
+    }
+
+    .me-img{
+        margin-bottom: 24vh;
+        margin-top: 15vh;
+    }
+    
+     
+ }
+
+
+
+
+
 
 
