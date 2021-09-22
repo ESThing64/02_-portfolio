@@ -10,9 +10,16 @@ p{
     margin: 0 33vw;
 }
 
+
+
 h2{
     color: #fff;
     margin-right: 15vw;
+    
+}
+.nav-bar > li:hover{
+    color: #FCA311;
+    text-decoration: underline;
     
 }
 
@@ -77,6 +84,26 @@ a{
     
     
 }
+
+/* animation */
+.sm-bar{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+
+ }
+ 
+ @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
 
 .sm-bar-li{
 padding: 1rem;
@@ -326,7 +353,10 @@ input {
 
 
 
+ 
+.nav-bar{
+    animation-name: bounce;
 
 
-
+}
 
