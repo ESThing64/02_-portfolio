@@ -22,7 +22,7 @@ While in the browser the paragraph has correct margins. When on the iphone 8 it 
 ![in-browser](assets/img/readme-img/issue_iphone_8.PNG)
 ![on-iphone8](assets/img/readme-img/ok_750x1334.png)
 
-More screen sized will become compatible with time.
+More screen sizes will become compatible with time.
 
 
 
