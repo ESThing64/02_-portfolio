@@ -4,12 +4,24 @@
     --gray: #E5E5E5;
 
     background-color: #14213D;
-   
-
-    
-
 
 }
+
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+img.rounded-corners {
+    border-radius: 30px;
+  }
+  .tiles article header {
+    position: relative;
+    z-index: 3;
+}
+
 
 p{
     color:     var(--orange);
@@ -26,6 +38,7 @@ h2{
 
 
 header{
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 50%;
@@ -40,8 +53,8 @@ a{
 .nav-bar{
     display: flex;
     justify-content: center;
-  
-    padding: 2.5rem; 
+    padding: 1rem; 
+    background-color: #14213D;
 }
 
 .nav-bar > li:hover{
@@ -141,19 +154,37 @@ margin-bottom: 3vh;
     flex: 0 0 100%;
     max-width: 100%;
     justify-content: center;
-    border: black dotted;
+    padding-bottom: 5rem;
+   
     
 }
 
+.pro{ 
+    
+    position: relative;
+    right: 14rem;
+    top: 32vh;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+   
+
+}
 
 
+.stara{
+    position: relative;
+    right: 22vw;
+    bottom: 6vh;
+    text-decoration: underline;
+}
 
 .project-card{
     display: flex;
     justify-content: center;
     flex: 0 0 50%;
     max-width: 50%;
-    border: black dotted;
+    padding-bottom: 5rem;
+   
     
   
 }
