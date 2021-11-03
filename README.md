@@ -4,6 +4,9 @@ This is a starting for my portfolio as a web developer. The photo provided are j
 
 The Contact me section is also purely cosmetic at this point and will be made functional at a later time.
 
+# Live link
+https://esthing64.github.io/02_-portfolio/
+
 
 
 ## Media Query
